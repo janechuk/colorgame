@@ -1,0 +1,67 @@
+body {
+    background-color: black;
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.square {
+    width: 30%;
+    background: purple;
+    padding-bottom: 30%;
+    float: left;
+    margin: 1.66%;  
+    border-radius: 20%; 
+    transition: background 0.8s;
+    --webkit-transition: background 0.8s;
+    -moz-transition: background 0.8s;
+}
+h1 {
+    text-align: center;
+    color: white;
+    margin: 0;
+    font-weight: normal;
+    text-transform: uppercase;
+    line-height: 1.1;
+    padding: 20px 0;
+}
+#colorDisplay{
+    font-size: 200%;
+}
+#container {
+    max-width: 700px;
+    margin: 20px auto;
+}
+
+
+#stripe {
+    background: white;
+    height: 40px;
+    text-align: center;
+    color: black;
+}
+.selected {
+    color: white;
+    background: black;
+}
+button {
+    outline: none;
+    border: none;
+    background: none;
+    text-transform: uppercase;
+    height: 100%;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-size: inherit;
+    transition: all 0.5s;
+    --webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+}
+#message {
+    display: inline-block;
+    width: 30%;
+}
+
+button:hover {
+    color: white;
+    background: black;
+    
+}
